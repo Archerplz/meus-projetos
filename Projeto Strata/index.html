@@ -139,12 +139,20 @@
 
         <section class="main-content-section">
             <h3>Elements</h3>
+            ]
             <h4>Text</h4>
             <p>This is <b>bold</b> and this is <strong>strong</strong> This is <i>italic</i> and this is <em>emphasized</em>. This is <sup>superscript</sup> text and this is <sub>subscript</sub> text. This is <u>underlined</u> and this is <code>code: for (;;) { ... }.</code> Finally, this is a <a href="#">link</a>.
             </p>
 
+            <h1>Titulo h1</h1>
+            <h2>Titulo h2</h2>
+            <h3>Titulo h3</h3>
+            <h4>Titulo h4</h4>
+            <h5>Titulo h5</h5>
+            <h6>Titulo h6</h6>
+
             <blockquote cite="http://developer.mozilla.org">
-                <p>Esta é uma citação tirada da Mozila Developer Center.</p>
+                Esta é uma citação tirada da Mozila Developer Center.
             </blockquote>
 
             <p> According to Mozilla's website,
@@ -157,6 +165,15 @@
 &lt;script&gt;
     alert('oi')
 &lt;script&gt;
+
+let name = prompt("What is your name?");
+if (name !== null && name !== "") {
+  console.log("Hello, " + name + "!");
+} else {
+  console.log("You did not enter a valid name.");
+}
+
+/tellraw @a {"text":"Hello, world!"}
                 </code>
             </pre>
             
